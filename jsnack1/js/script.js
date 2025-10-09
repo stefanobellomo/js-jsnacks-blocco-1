@@ -1,3 +1,6 @@
+/* L’utente inserisce due numeri in successione, con due prompt.
+Il software stampa il maggiore.*/
+
 const top_number = Number(prompt("Inserire primo numero"))
 
 const other_number = Number(prompt("Inserire secondo numero"))
