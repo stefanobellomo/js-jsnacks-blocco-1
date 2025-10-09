@@ -6,9 +6,9 @@ const first_words = String(prompt("Inserire prima parola"))
 
 const other_words =  String(prompt("Inserire seconda parola"))
 
-if (first_words.length < other_words.length){
+if (first_words < other_words){
     console.log(first_words, other_words);
-} else if (other_words.length < first_words.length){
+} else if (other_words < first_words){
     console.log(other_words, first_words);
 } else {
     console.log(first_words, other_words);
